@@ -1,0 +1,391 @@
+/* =======================================================================================================
+                                      Google font  link start here
+=========================================================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/* =======================================================================================================
+                                        Google font--link end here
+=========================================================================================================*/
+/* =======================================================================================================
+                                        Custom css--start here
+=========================================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 1200px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.primaryColor {
+  color: #272727;
+}
+.secondaryColor {
+  color: rgba(39, 39, 39, 0.6);
+}
+.btnColor {
+  color: #e55473;
+}
+
+.primary__description {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 30px;
+  max-width: 581px;
+  margin: 0 auto;
+}
+.section__title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.primary__Btn {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 25px;
+  background: rgb(229, 84, 115);
+  border: 0px;
+  transition: all 0.3s linear 0s;
+  border-radius: 8px !important;
+  border: 1px solid rgb(229, 84, 115);
+}
+.primary__Btn:hover {
+  color: #e55473;
+  background: #fff;
+  border: 1px solid rgb(229, 84, 115);
+}
+.section__heading {
+  text-align: center;
+  max-width: 605px;
+  margin: 0 auto;
+}
+/* === by default btn , heading , paragraph , primary-color,secondary-color , btn-color, img-dowload , font link , bootstrap link , responsive link (other device link ) js link ,font awsome pro link etc del this comment when done project .. otherwise ha ha ha 😊😊😊😊😊  */
+
+/* =======================================================================================================
+                                        Custom css--end here
+=========================================================================================================*/
+/* =======================================================================================================
+                                        header_part css start here
+=========================================================================================================*/
+header {
+  padding: 20px 0 0;
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner__text {
+  max-width: 571px;
+}
+
+.banner__title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  max-width: 520px;
+}
+.banner__description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.shopBtn {
+  margin-top: 30px;
+}
+/* =======================================================================================================
+                                        header_part  css end here
+=========================================================================================================*/
+
+/* =======================================================================================================
+                                        main_part--css start here
+=========================================================================================================*/
+/* ==================================================
+                    featured_part css start here
+   ================================================== */
+#featured {
+  padding: 100px 0;
+  background-color: #fff;
+}
+.featuredTitle {
+  margin-bottom: 25px;
+}
+.flower__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  align-items: end;
+  cursor: pointer;
+  gap: 20px;
+}
+.flower__img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 25px 30px 0;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.flowerBoxItem:hover .flower__img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 68px 12px 0;
+}
+
+.lightBlue {
+  padding: 127px 30px 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flowerTitleDiv {
+  text-align: center;
+}
+.flower__title {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 32px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.flowerBoxItem:hover .flower__title {
+  transform: translateY(25%);
+  -webkit-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -o-transform: translateY(25%);
+  text-decoration: none;
+  color: #e55473;
+}
+/* ==================================================
+                    featured_part css end here
+   ================================================== */
+#icon {
+  padding: 0 0 40px;
+  background-color: #fff;
+}
+.IconWrapper {
+  padding: 86px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+.iconOne {
+  text-align: center;
+}
+.iconImg {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.iconImg:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.icon__title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* ==================================================
+                    Icon_part css start here
+   ================================================== */
+/* ==================================================
+/* ==================================================
+                    Icon_part css end here
+   ================================================== */
+/* ==================================================
+                    HotDeal_part css start here
+   ================================================== */
+#hotdeal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.hotdealWrapper {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hotdeal__Text {
+  text-align: center;
+}
+.hotdeal__title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.hotdeal__span {
+  color: #e55473;
+}
+.signUPBtn {
+  margin-top: 20px;
+}
+.hotdeal__Img {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.hotdeal__Img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* ==================================================
+                    HotDeal_part css end here
+   ================================================== */
+/* ==================================================
+                    insta_part css start here
+   ================================================== */
+#instragram {
+  padding: 50px 0 100px;
+  background-color: #fff;
+}
+.instaContent img {
+  max-width: 280px;
+}
+.instaContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+/* ==================================================
+                    insta_part css end here
+   ================================================== */
+/* ==================================================
+                    input_part css start here
+   ================================================== */
+#input {
+  padding: 100px 0;
+  background: url("/img/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inputWrapper {
+  text-align: center;
+}
+.input__description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+input[type="email"] {
+  width: 500px;
+  border: 0;
+  padding: 18px 25px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-right: 12px;
+  border: 1px solid #272727;
+}
+/* ==================================================
+                    input_part css end here
+   ================================================== */
+/*  
+/* =======================================================================================================
+                                        main_part--css end here
+=========================================================================================================*/
+
+/* =======================================================================================================
+                                        Footer_part--css start here
+=========================================================================================================*/
+footer {
+  padding: 80px 0 50px;
+  background: #111010;
+  margin-top: 100px;
+}
+.footerWrapper {
+  text-align: center;
+}
+.footer__title {
+  color: #e55473;
+  font-size: 38px;
+  font-weight: 800;
+}
+.footer__span {
+  color: #fff;
+}
+.footer__description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* =======================================================================================================
+                                        Footer_part--css end here
+=========================================================================================================*/
